@@ -8,8 +8,8 @@ Handles all collection of data from differnt sources.
 
 ### Scenario: collecting sleep-data of patient
 
-Given - The patient has a device that's compatible with Google Fit.
-And: the device sensor is on.
+Given - The patient has a device that's compatible with Google Fit.\
+And: the device sensor is on.\
 And: the data format is informed prior or along with data transmission.
 
 When - the sensor sends format of data it is collecting.
